@@ -20,9 +20,9 @@ function showName() {
   db.Student.getAllData(function(students) {
     students.forEach(function(student) {
       console.log(`Student ID   : ${student.id}`);
-      console.log(`First Name   : ${student.firstname}`);
-      console.log(`Last Name    : ${student.lastname}`);
-      console.log(`Full Name    : ${student.fullname}`)
+      // console.log(`First Name   : ${student.firstname}`);
+      // console.log(`Last Name    : ${student.lastname}`);
+      console.log(`Full Name    : ${student.name}`)
     })
   })
 }
