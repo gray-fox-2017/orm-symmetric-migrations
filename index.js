@@ -8,7 +8,7 @@ function getAll() {
     students.forEach(student => {
       console.log(`ID     : ${student.id}`)
       console.log(`Name   : ${student.name}`);
-      // console.log(`Age    : ${student.getAge()}`);
+      console.log(`Age    : ${student.getAge()}`);
       console.log(`Email  : ${student.email}`);
       console.log(`Height : ${student.height}`);
       console.log(`Phone  : ${student.phone}`);
@@ -48,7 +48,7 @@ function convertName() {
 }
 
 // convertName()
-// createStudent({firstname: "Hakiem", lastname: "Noersedya", gender: "Male", email: "hakiem@google.com", phone: "0870910932-23", height: 160})
+// createStudent({firstname: "Hakiem", lastname: "Noersedya", gender: "Male", email: "hakiem@google.com", phone: "0870923", height: 160})
 
 var replServer = repl.start({
   prompt: ">> ",

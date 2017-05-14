@@ -13,57 +13,52 @@ module.exports = {
       }], {});
     */
     return queryInterface.bulkInsert('Students', [{
-  		"firstname": "Aretha",
-  		"lastname": "Aretha",
+  		"name": "Aretha Don",
       "gender": "Female",
   		"birthdate": "1994-09-28 00:52:02",
   		"email": "aliq.erasdos@Vivamussit.net",
-  		"phone": "0832-8156-006",
+  		"phone": "08328156006",
       "height": 160,
       "createdAt": new Date(),
       "updatedAt": new Date()
   	},
   	{
-  		"firstname": "Baxter",
-  		"lastname": "Tatyana",
+  		"name": "Baxter Tatyana",
       "gender": "Male",
   		"birthdate": "1993-02-08 09:07:01",
   		"email": "sem.egetdasultricesaauctor.net",
-  		"phone": "0800-8401-852",
+  		"phone": "08008401852",
       "height": 140,
       "createdAt": new Date(),
       "updatedAt": new Date()
   	},
   	{
-  		"firstname": "Brittany",
-  		"lastname": "Martha",
+  		"name": "Brittany Martha",
       "gender": "Female",
   		"birthdate": "1993-04-02 11:07:59",
   		"email": "congue.trpasis.Invulputaterisusa.net",
-  		"phone": "0847-1441-542",
+  		"phone": "08471441542",
       "height": 172,
       "createdAt": new Date(),
       "updatedAt": new Date()
   	},
   	{
-  		"firstname": "Perry",
-  		"lastname": "Xyla",
+  		"name": "Perry Xyla",
       "gender": "Female",
   		"birthdate": "1994-07-20 09:20:09",
   		"email": "ad.litsor@aelita.edu",
-  		"phone": "0817-0644-840",
+  		"phone": "08170644840",
       "height": 164,
       "createdAt": new Date(),
       "updatedAt": new Date()
   	},
   	{
-  		"firstname": "September",
-  		"lastname": "Darrel",
+  		"name": "September Darrel",
   		"birthdate": "1993-12-29 21:12:14",
       "gender": "Male",
   		"email": "eudm@easdtus.org",
-  		"phone": "0873-8055-164",
-      "height": 147,
+  		"phone": "08738055164",
+      "height": 157,
       "createdAt": new Date(),
       "updatedAt": new Date()
   	}], {});
