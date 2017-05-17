@@ -7,9 +7,7 @@ let replServer = repl.start('>> ');
 var all = db.Student.getAllData(function(Students){
   Students.forEach(function(Student){
       console.log(`id        : ${Student.id}`)
-      console.log(`First Name: ${Student.first_name}`);
-      console.log(`Last Name : ${Student.last_name}`);
-      console.log(`name      : ${Student.getFullName()}`);
+      console.log(`name      : ${Student.name}`);
       console.log(`address   : ${Student.address}`);
       console.log(`gender    : ${Student.gender}`);
       console.log(`Birtdate  : ${Student.birtdate}`);
@@ -22,11 +20,11 @@ var all = db.Student.getAllData(function(Students){
 
 function create(){
   db.Student.create({
-    first_name: 'gogon',
-    last_name: 'depok' ,
+    name: 'kiki',
+    address: 'depok',
     gender:'pria' ,
     birtdate: '1988-04-18',
-    email: 'gogon@yahoo.com',
+    email: 'kiki@yahoo.com',
     phone: '1234577834' ,
     tinggi_badan: 165})
   .then(Student => console.log('data already added!'))
